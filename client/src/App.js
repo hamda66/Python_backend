@@ -4,6 +4,11 @@ function app(){
 
   const [data, setData]=useState([{}])
 
+  useEffect( () =>{
+
+  }
+   ,[]
+  )
   return {
         <div>
 
