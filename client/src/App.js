@@ -5,7 +5,10 @@ function app(){
   const [data, setData]=useState([{}])
 
   useEffect( () =>{
+   fetch("/members").then(
 
+    
+   )
   }
    ,[]
   )
