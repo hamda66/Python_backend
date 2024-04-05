@@ -6,8 +6,7 @@ function app(){
 
   useEffect( () =>{
    fetch("/members").then(
-
-    
+      res => res.json() 
    )
   }
    ,[]
