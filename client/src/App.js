@@ -8,7 +8,10 @@ function app(){
    fetch("/members").then(
       res => res.json() 
    ).then(
-    
+      data =>{
+        
+      }
+
    )
   }
    ,[]
