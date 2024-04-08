@@ -9,7 +9,7 @@ function app(){
       res => res.json() 
    ).then(
       data =>{
-        
+        setData(data)
       }
 
    )
