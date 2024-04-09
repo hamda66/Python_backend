@@ -10,6 +10,7 @@ function app(){
    ).then(
       data =>{
         setData(data)
+        console.log(data)
       }
 
    )
