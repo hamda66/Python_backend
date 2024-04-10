@@ -19,7 +19,8 @@ function app(){
   )
   return {
         <div>
-
+ 
+        {(typeof data.members === 'undefined') ? (<p>"Loading.... "</p>)}
         </div>
   }
 }
